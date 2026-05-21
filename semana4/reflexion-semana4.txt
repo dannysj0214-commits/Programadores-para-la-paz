@@ -1,0 +1,18 @@
+¨Por que es importante que las comunidades o iniciativas ciudadanas 
+puedan construir herramientas tecnologicas propias utilizando 
+tecnologias abiertas como Node.js? 
+ 
+Es importante porque las tecnologias abiertas como Node.js permiten 
+a las comunidades desarrollar soluciones adaptadas a sus necesidades 
+especificas sin depender de software privativo o costoso. Esto democratiza 
+el acceso a la tecnologia y fomenta la autonomia digital. 
+ 
+Ademas, Node.js utiliza JavaScript, un lenguaje ampliamente conocido, 
+lo que reduce la barrera de entrada para nuevos desarrolladores. Las 
+comunidades pueden crear aplicaciones web, APIs y herramientas de 
+gestion de manera rapida y eficiente. 
+ 
+El codigo abierto permite compartir conocimientos, colaborar y mejorar 
+las herramientas colectivamente. Asi, las iniciativas ciudadanas pueden 
+resolver problemas locales sin esperar soluciones externas, generando 
+impacto social positivo y fortaleciendo la soberania tecnologica. 
