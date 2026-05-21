@@ -1,0 +1,22 @@
+PRUEBAS DE RUTAS - SEMANA 5 
+ 
+1. http://localhost:3000 
+---------------------------------------- 
+Al acceder a esta ruta, el servidor responde con el mensaje "Servidor activo". 
+Es la ruta principal o raiz del servidor. 
+ 
+2. http://localhost:3000/saludo 
+---------------------------------------- 
+Al acceder a esta ruta, el servidor responde con "Hola comunidad". 
+Es una ruta especifica que devuelve un saludo general. 
+ 
+3. http://localhost:3000/mensaje/juan 
+---------------------------------------- 
+Al acceder a esta ruta, el servidor responde con "Hola juan". 
+El ":nombre" es un parametro dinamico. Si se cambia "juan" por otro nombre, 
+el servidor respondera con ese nombre. Por ejemplo: /mensaje/maria devuelve "Hola maria". 
+ 
+4. Ruta POST /reporte (NO se prueba en navegador) 
+---------------------------------------- 
+Esta ruta recibe datos mediante POST. Se necesita una herramienta como Thunder Client, 
+Postman o JavaScript para probarla. Devuelve un JSON con estado y mensaje recibido. 
