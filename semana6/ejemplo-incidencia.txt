@@ -1,0 +1,21 @@
+======================================== 
+SEMANA 6 - EJEMPLO DE INCIDENCIA 
+======================================== 
+ 
+JSON que podria enviar un ciudadano para reportar una incidencia: 
+ 
+Ejemplo 1: 
+{ 
+  "tipo": "Iluminacion publica", 
+  "descripcion": "La comunidad reporta que una lampara del parque no funciona desde hace varios dias." 
+} 
+ 
+Ejemplo 2: 
+{ 
+  "tipo": "Bacheo", 
+  "descripcion": "Existe un bache profundo en la calle principal que pone en riesgo a los conductores y peatones." 
+} 
+ 
+Peticion POST a /incidencia: 
+El ciudadano envia este JSON al servidor, y este responde 
+confirmando que la incidencia fue registrada. 

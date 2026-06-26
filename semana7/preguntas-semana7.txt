@@ -1,0 +1,19 @@
+======================================== 
+SEMANA 7 - PREGUNTAS DE SELECCION MULTIPLE 
+======================================== 
+ 
+Pregunta 1: 
+¨Que es un array en programacion? 
+Respuesta: B. Una estructura que permite almacenar varios datos en una lista 
+ 
+Pregunta 2: 
+¨Que metodo HTTP se utiliza normalmente para consultar datos existentes? 
+Respuesta: B. GET 
+ 
+Pregunta 3: 
+¨Que metodo HTTP se usa normalmente para agregar informacion nueva? 
+Respuesta: B. POST 
+ 
+Pregunta 4: 
+¨Cual es el proposito de una API en una aplicacion? 
+Respuesta: B. Permitir que diferentes sistemas o aplicaciones intercambien informacion 

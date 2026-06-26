@@ -1,0 +1,21 @@
+======================================== 
+SEMANA 6 - PRUEBA DE API 
+======================================== 
+ 
+Peticion POST a /registro con el siguiente JSON: 
+{ 
+  "nombre": "Maria", 
+  "mensaje": "Hola comunidad" 
+} 
+ 
+Respuesta del servidor: 
+{ 
+  "estado": "Datos recibidos", 
+  "nombre": "Maria", 
+  "mensaje": "Hola comunidad" 
+} 
+ 
+Explicacion: 
+El servidor recibe los datos enviados en req.body, extrae 
+los campos "nombre" y "mensaje", y devuelve una respuesta 
+JSON confirmando que los datos fueron recibidos correctamente. 

@@ -1,0 +1,52 @@
+======================================== 
+SEMANA 7 - PRUEBA DE REPORTES 
+======================================== 
+ 
+1. Registro de un reporte (POST): 
+Se envia una peticion POST a /reportes con el siguiente JSON: 
+{ 
+  "tipo": "Infraestructura", 
+  "descripcion": "Dano en alumbrado publico" 
+} 
+ 
+Respuesta del servidor: 
+{ 
+  "mensaje": "Reporte registrado", 
+  "reporte": { 
+    "id": 1, 
+    "tipo": "Infraestructura", 
+    "descripcion": "Dano en alumbrado publico" 
+  } 
+} 
+ 
+2. Consulta de reportes (GET): 
+Se envia una peticion GET a /reportes. 
+ 
+Respuesta del servidor: 
+[ 
+  { 
+    "id": 1, 
+    "tipo": "Infraestructura", 
+    "descripcion": "Dano en alumbrado publico" 
+  } 
+] 
+ 
+3. Segundo reporte (POST): 
+{ 
+  "tipo": "Ambiente", 
+  "descripcion": "Acumulacion de residuos en una zona comunitaria" 
+} 
+ 
+4. Consulta nuevamente (GET): 
+[ 
+  { 
+    "id": 1, 
+    "tipo": "Infraestructura", 
+    "descripcion": "Dano en alumbrado publico" 
+  }, 
+  { 
+    "id": 2, 
+    "tipo": "Ambiente", 
+    "descripcion": "Acumulacion de residuos en una zona comunitaria" 
+  } 
+] 

@@ -1,0 +1,27 @@
+======================================== 
+SEMANA 7 - EJEMPLOS DE REPORTES CIUDADANOS 
+======================================== 
+ 
+Ejemplo 1: 
+{ 
+  "tipo": "Infraestructura", 
+  "descripcion": "Dano en alumbrado publico" 
+} 
+ 
+Ejemplo 2: 
+{ 
+  "tipo": "Ambiente", 
+  "descripcion": "Acumulacion de residuos en una zona comunitaria" 
+} 
+ 
+Ejemplo 3 (adicional): 
+{ 
+  "tipo": "Seguridad", 
+  "descripcion": "Falta de senalizacion vial en la esquina de la calle principal" 
+} 
+ 
+Ejemplo 4 (adicional): 
+{ 
+  "tipo": "Servicios publicos", 
+  "descripcion": "Baja presion de agua en el barrio Los Alamos durante las mananas" 
+} 
