@@ -1,0 +1,23 @@
+======================================== 
+SEMANA 9 - COMPONENTES DE UN ENTORNO SERVIDOR 
+======================================== 
+ 
+1. SISTEMA OPERATIVO 
+Gestiona los recursos del hardware y proporciona los servicios 
+para que Node.js y las aplicaciones puedan ejecutarse. 
+ 
+2. NODE.JS 
+Entorno de ejecucion de JavaScript del lado del servidor. 
+Interpreta y ejecuta el codigo de server.js. 
+ 
+3. APLICACION SERVER.JS 
+Archivo que contiene el codigo fuente de la aplicacion servidora. 
+Define las rutas, la logica de respuesta y la configuracion del puerto. 
+ 
+4. PUERTO (3000) 
+Numero que identifica un canal de comunicacion especifico. 
+Es donde el servidor "escucha" las solicitudes entrantes. 
+ 
+5. LOGS 
+Registros de eventos que ocurren en el servidor. 
+Fundamentales para monitoreo, auditoria y resolucion de problemas. 

@@ -1,0 +1,25 @@
+======================================== 
+SEMANA 9 - REFLEXION SOBRE ESTABILIDAD Y SEGURIDAD 
+======================================== 
+ 
+¨Por que es importante que las plataformas tecnologicas que usan 
+las comunidades funcionen de manera estable y segura en un servidor? 
+ 
+La estabilidad y seguridad de un servidor son fundamentales 
+porque de ellas depende la confianza de los usuarios y la 
+continuidad de los procesos participativos. Cuando una comunidad 
+utiliza una plataforma digital, deposita en ella su tiempo, 
+sus datos y la legitimidad del proceso. 
+ 
+Un servidor inestable causa caidas, tiempos lentos y perdida 
+de informacion. En momentos criticos, una caida puede invalidar 
+todo el proceso y generar frustracion. 
+ 
+La seguridad protege los datos personales y evita accesos 
+no autorizados. Una violacion puede exponer informacion privada 
+y generar desconfianza entre los participantes. 
+ 
+En conclusion, una plataforma comunitaria estable y segura 
+demuestra respeto hacia las personas que confian en ella. 
+La tecnologia debe estar al servicio de la participacion, 
+y no convertirse en un obstaculo. 

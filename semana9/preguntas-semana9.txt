@@ -1,0 +1,19 @@
+======================================== 
+SEMANA 9 - PREGUNTAS DE SELECCION MULTIPLE 
+======================================== 
+ 
+Pregunta 1: 
+¨Que es un servidor en una aplicacion web? 
+Respuesta: B. Un sistema que ejecuta aplicaciones y responde solicitudes 
+ 
+Pregunta 2: 
+¨Que significa que un servidor escuche en un puerto? 
+Respuesta: B. Que el servidor esta esperando solicitudes en una direccion especifica 
+ 
+Pregunta 3: 
+¨Cual de los siguientes elementos es importante para la estabilidad de un servidor? 
+Respuesta: B. Monitorear ejecucion y registrar errores 
+ 
+Pregunta 4: 
+¨Que son los logs en un servidor? 
+Respuesta: A. Archivos que registran la actividad y eventos del sistema 

@@ -1,0 +1,17 @@
+======================================== 
+SEMANA 9 - EJECUCION DEL SERVIDOR 
+======================================== 
+ 
+1. ¨Que ocurre cuando ejecutas node server.js? 
+Al ejecutar node server.js, el motor de JavaScript lee el archivo, 
+carga Express, crea el servidor y lo pone a escuchar en el puerto 3000. 
+ 
+2. ¨Que mensaje aparece en la terminal? 
+Aparece: "Servidor ejecutandose en puerto 3000" 
+ 
+3. ¨Que sucede cuando visitas la ruta /estado? 
+El servidor responde con un objeto JSON: 
+{ 
+  "estado": "Servidor funcionando", 
+  "servicio": "API comunitaria" 
+} 
