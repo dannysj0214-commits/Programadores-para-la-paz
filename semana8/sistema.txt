@@ -1,0 +1,22 @@
+======================================== 
+SEMANA 8 - INFORMACION DEL SISTEMA 
+======================================== 
+ 
+COMANDO: uname -a 
+Muestra informacion detallada del sistema operativo: 
+- Nombre del kernel (Linux) 
+- Nombre del host 
+- Version del kernel 
+- Arquitectura del sistema (x86_64, ARM, etc.) 
+- Sistema operativo (GNU/Linux) 
+ 
+COMANDO: whoami 
+Muestra el nombre del usuario actual que esta ejecutando la sesion. 
+ 
+¨Por que es util conocer informacion del sistema cuando se administra un servidor? 
+1. Diagnosticar problemas de compatibilidad 
+2. Verificar vulnerabilidades y aplicar parches de seguridad 
+3. Gestionar recursos segun la arquitectura 
+4. Auditar y cumplir con politicas de seguridad 
+5. Planificar actualizaciones y migraciones 
+6. Identificar el usuario con el que se esta trabajando 

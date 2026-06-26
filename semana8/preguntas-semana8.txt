@@ -1,0 +1,19 @@
+======================================== 
+SEMANA 8 - PREGUNTAS DE SELECCION MULTIPLE 
+======================================== 
+ 
+Pregunta 1: 
+¨Que es un sistema operativo? 
+Respuesta: B. El software que administra el hardware y permite ejecutar programas 
+ 
+Pregunta 2: 
+¨Cual de los siguientes es un sistema operativo de codigo abierto? 
+Respuesta: A. Ubuntu 
+ 
+Pregunta 3: 
+¨Que es la terminal en un sistema Linux? 
+Respuesta: B. Una interfaz que permite ejecutar comandos directamente en el sistema 
+ 
+Pregunta 4: 
+¨Cual de las siguientes practicas mejora la seguridad digital? 
+Respuesta: B. Usar contrasenas fuertes y proteger credenciales 

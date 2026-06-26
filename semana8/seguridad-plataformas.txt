@@ -1,0 +1,30 @@
+======================================== 
+SEMANA 8 - PRACTICAS DE SEGURIDAD PARA PLATAFORMAS COMUNITARIAS 
+======================================== 
+ 
+1. NO EXPONER DATOS PERSONALES 
+Proteger la informacion sensible de los usuarios como nombres, 
+direcciones, numeros de identificacion y correos electronicos. 
+ 
+2. PROTEGER CREDENCIALES DE ACCESO 
+Usar contrasenas fuertes, autenticacion de multiples factores (2FA) 
+y politicas de cambio periodico. No compartir credenciales. 
+ 
+3. USAR CONEXIONES SEGURAS (HTTPS / SSL/TLS) 
+Cifrar todas las comunicaciones entre usuarios y la plataforma 
+para evitar interceptacion de informacion sensible. 
+ 
+4. REGISTRAR ACCESOS Y ACTIVIDADES (LOGS) 
+Mantener registros de accesos, fecha, hora, direccion IP y acciones 
+para detectar comportamientos sospechosos y realizar auditorias. 
+ 
+5. LIMITAR ACCESO A INFORMACION SENSIBLE 
+Aplicar el principio de minimo privilegio: cada usuario o admin 
+debe tener acceso solo a lo necesario para su rol. 
+ 
+PRACTICAS ADICIONALES RECOMENDADAS: 
+- Mantener el software actualizado 
+- Realizar copias de seguridad periodicas 
+- Implementar firewalls y sistemas de deteccion de intrusiones 
+- Capacitar a usuarios y administradores en buenas practicas 
+- Tener un plan de respuesta ante incidentes de seguridad 

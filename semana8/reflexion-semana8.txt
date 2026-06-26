@@ -1,0 +1,28 @@
+======================================== 
+SEMANA 8 - REFLEXION SOBRE SEGURIDAD DIGITAL 
+======================================== 
+ 
+¨Por que la seguridad digital es importante para proteger plataformas 
+tecnologicas que usan comunidades o procesos participativos? 
+ 
+La seguridad digital en plataformas comunitarias no es un lujo tecnico, 
+sino una necesidad etica y funcional. Cuando una comunidad decide 
+organizarse a traves de una plataforma digital, deposita en ella su 
+confianza, su tiempo, sus datos y el exito de sus procesos participativos. 
+ 
+Una vulneracion de seguridad puede tener consecuencias devastadoras: 
+desde la filtracion de datos personales hasta la interrupcion del 
+servicio en momentos criticos. En contextos participativos, donde la 
+transparencia y la confianza son pilares fundamentales, cualquier 
+incidente de seguridad puede deslegitimar todo el proceso. 
+ 
+La seguridad digital tambien esta relacionada con la soberania 
+tecnologica. Cuando una comunidad utiliza tecnologias abiertas y 
+comprende como funciona su infraestructura, puede tomar decisiones 
+informadas para proteger sus datos y garantizar la continuidad. 
+ 
+En conclusion, la seguridad digital protege a las personas, garantiza 
+la integridad de los procesos, mantiene viva la confianza comunitaria 
+y asegura que la tecnologia este al servicio de la participacion, 
+y no al reves. Una comunidad que cuida su seguridad digital es una 
+comunidad que se respeta a si misma y valora el esfuerzo colectivo. 

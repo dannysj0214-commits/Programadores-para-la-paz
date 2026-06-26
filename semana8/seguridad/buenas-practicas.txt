@@ -1,0 +1,15 @@
+======================================== 
+SEMANA 8 - PRACTICAS BASICAS DE SEGURIDAD DIGITAL 
+======================================== 
+ 
+1. Proteger contrasenas 
+Las contrasenas deben ser unicas, complejas y no compartirse. 
+Usar frases largas o combinaciones de letras, numeros y simbolos. 
+ 
+2. No compartir credenciales 
+Cada usuario debe tener sus propias credenciales de acceso. 
+Compartir usuarios elimina la trazabilidad y aumenta riesgos. 
+ 
+3. Mantener software actualizado 
+Las actualizaciones incluyen parches de seguridad que corrigen 
+vulnerabilidades descubiertas. Es una medida muy efectiva. 
