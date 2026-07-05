@@ -1,0 +1,33 @@
+DEFINICION DE ITERACION - SEMANA 10 
+ 
+¨Que 2 tareas del backlog har¡as primero? 
+1. "Como ciudadano/a quiero registrar una incidencia o reporte con evidencia" 
+2. "Como coordinador/a del equipo quiero recibir una notificacion automatica por Telegram" 
+ 
+¨Por que son las mas importantes? 
+Estas dos tareas son fundamentales porque: 
+- La primera es el nucleo del sistema: sin registro de incidencias, no hay sistema. 
+- La segunda permite una respuesta inmediata a los reportes, lo cual es esencial para 
+  que la comunidad perciba que el sistema funciona y genera confianza. 
+- Juntas cubren el flujo principal: registro - -
+ 
+¨Que significa para ti que una tarea este "terminada"? 
+DEFINICION DE TERMINADO (DONE): 
+Una tarea se considera terminada cuando cumple con los siguientes criterios: 
+ 
+1. Funciona correctamente - La funcionalidad implementada opera segun lo esperado 
+   y cumple con los criterios de aceptacion definidos en la historia de usuario. 
+ 
+2. Fue probada - Se realizaron pruebas basicas (unitarias o manuales) que verifican 
+   que la funcionalidad funciona en diferentes escenarios y no presenta errores criticos. 
+ 
+3. Quedo registrada en Git - El codigo fue commiteado con un mensaje descriptivo 
+   y pusheado al repositorio remoto, manteniendo un historial claro de cambios. 
+ 
+4. Esta documentada - La funcionalidad cuenta con documentacion minima que explica 
+   su uso y proposito (comentarios en codigo o documentacion externa). 
+ 
+5. No compromete la seguridad - La implementacion no expone informacion sensible, 
+   utiliza variables de entorno para configuraciones y sigue buenas practicas de seguridad. 
+ 
+Fecha de definicion: 5 de julio de 2026 

@@ -1,0 +1,46 @@
+AUTOMATIZACION CON n8n Y TELEGRAM - SEMANA 10 
+ 
+DESCRIPCION DEL FLUJO DE AUTOMATIZACION: 
+ 
+¨Que evento activa el flujo? 
+El evento que activa el flujo es el registro de un nuevo reporte o incidencia en 
+el sistema de veeduria ciudadana. Esto podria ser mediante un formulario web, 
+un bot de Telegram o una API que recibe los datos del reporte. 
+ 
+¨Que mensaje se enviaria a Telegram? 
+Mensaje a enviar: 
+"?? NUEVO REPORTE REGISTRADO" 
+ID del reporte: [ID_generado] 
+Tipo de incidencia: [tipo] 
+Ubicacion: [sector/comuna] 
+Fecha y hora: [timestamp] 
+Estado: Pendiente de revision 
+ 
+Por favor, revisar el sistema para mas detalles y tomar accion. 
+ 
+¨Que informacion no deberia enviarse por seguridad? 
+NUNCA DEBEN ENVIARSE POR TELEGRAM: 
+- Nombres completos de los denunciantes o ciudadanos 
+- Documentos de identidad (cedula, RUT, pasaporte, etc.) 
+- Direcciones de residencia o ubicaciones precisas 
+- Numeros de telefono o correos electronicos personales 
+- Contrasenas, tokens de acceso o claves API 
+- Datos bancarios o financieros 
+- Informacion medica o de salud 
+- Cualquier dato considerado sensible segun la ley de proteccion de datos 
+ 
+FLUJO DETALLADO (n8n): 
+1. Trigger: Webhook que recibe datos del nuevo reporte 
+2. Procesamiento: Extraer informacion no sensible (ID, tipo, ubicacion general) 
+3. Formateo: Construir mensaje seguro con solo datos necesarios 
+4. Envio: Conectar con Telegram Bot API 
+5. Confirmacion: Enviar mensaje de confirmacion al ciudadano (solo ID de seguimiento) 
+ 
+VENTAJAS DE ESTA AUTOMATIZACION: 
+- Respuesta inmediata ante incidentes 
+- Reduccion de tiempos de espera 
+- Trazabilidad de las acciones 
+- Coordinacion eficiente del equipo 
+- Generacion de confianza en la comunidad 
+ 
+Fecha de diseno: 5 de julio de 2026 

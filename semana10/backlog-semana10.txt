@@ -1,0 +1,26 @@
+BACKLOG DEL PROYECTO - SISTEMA DE VEEDURIA CIUDADANA 
+ 
+HISTORIAS DE USUARIO (Priorizadas de mayor a menor): 
+ 
+1. Como ciudadano/a quiero registrar una incidencia o reporte con evidencia 
+   (fotos y descripcion) para dejar constancia formal de un problema en mi comunidad. 
+   Prioridad: ALTA - Esta es la funcionalidad principal del sistema. 
+ 
+2. Como coordinador/a del equipo quiero recibir una notificacion automatica por Telegram 
+   cada vez que se registre un nuevo reporte para poder revisarlo rapidamente. 
+   Prioridad: ALTA - Permite una respuesta oportuna a las incidencias. 
+ 
+3. Como miembro del equipo de seguimiento quiero consultar el listado de reportes 
+   registrados con su estado actual para hacer seguimiento y verificar su resolucion. 
+   Prioridad: MEDIA - Permite dar trazabilidad a los casos. 
+ 
+4. Como ciudadano/a quiero recibir una confirmacion de que mi reporte fue recibido 
+   y esta siendo procesado para tener certeza de que mi voz fue escuchada. 
+   Prioridad: MEDIA - Genera confianza y fomenta la participacion. 
+ 
+5. Como administrador del sistema quiero generar reportes estadisticos mensuales 
+   sobre los tipos de incidencias y su resolucion para tomar decisiones informadas. 
+   Prioridad: BAJA - Util para la gestion, pero no critica para el funcionamiento inicial. 
+ 
+Total de historias: 5 
+Fecha de creacion: 5 de julio de 2026 

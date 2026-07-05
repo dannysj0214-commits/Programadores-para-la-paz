@@ -1,0 +1,19 @@
+PREGUNTAS DE SELECCI‡N MÈLTIPLE - SEMANA 10 
+ 
+Pregunta 1: 
+®Que es un backlog en un proyecto de software? 
+Respuesta: Una lista priorizada de tareas o funcionalidades por desarrollar. 
+ 
+Pregunta 2: 
+®Que describe mejor una historia de usuario? 
+Respuesta: Una forma breve de expresar que necesita un usuario y para que lo necesita. 
+ 
+Pregunta 3: 
+®Cual es el proposito principal de n8n en esta semana? 
+Respuesta: Automatizar tareas repetitivas y notificaciones de seguimiento no sensibles. 
+ 
+Pregunta 4: 
+®Para que puede servir Telegram en esta semana? 
+Respuesta: Como canal de coordinacion, convocatoria y notificacion comunitaria. 
+ 
+Fecha de realizacion: 5 de julio de 2026 
