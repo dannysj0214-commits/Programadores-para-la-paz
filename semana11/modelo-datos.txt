@@ -1,0 +1,70 @@
+MODELO DE DATOS - PLATAFORMA COMUNITARIA 
+ 
+ENTIDAD 1: Causa Comunitaria 
+ 
+Descripcion: 
+Representa una iniciativa, problema o proyecto que la comunidad desea visibilizar y apoyar. 
+ 
+Campos principales: 
+- id: Identificador unico de la causa (autogenerado) 
+- titulo: Titulo descriptivo de la causa (maximo 100 caracteres) 
+- descripcion: Explicacion detallada de la causa (maximo 500 caracteres) 
+- fecha_creacion: Fecha y hora en que se registro la causa 
+- estado: Estado actual (activa, en proceso, finalizada) 
+- categoria: Tipo de causa (ambiental, social, educativa, salud, infraestructura) 
+- usuario_creador: Identificador del usuario que creo la causa 
+- ubicacion: Sector o comuna donde aplica la causa 
+ 
+Proposito: 
+Almacenar las causas comunitarias para que los ciudadanos puedan conocerlas, 
+apoyarlas y darles seguimiento. Esta entidad es el corazon de la plataforma. 
+ 
+--- 
+ENTIDAD 2: Apoyo Ciudadano 
+ 
+Descripcion: 
+Registra el apoyo que cada ciudadano otorga a una causa especifica. 
+ 
+Campos principales: 
+- id: Identificador unico del apoyo (autogenerado) 
+- causa_id: Identificador de la causa a la que se apoya (relacion con Entidad 1) 
+- usuario_id: Identificador del usuario que apoya 
+- fecha_apoyo: Fecha y hora en que se registro el apoyo 
+- tipo_apoyo: Tipo de apoyo (firma, comentario, difusion, voluntariado) 
+- comentario: Mensaje opcional del ciudadano (maximo 200 caracteres) 
+ 
+Proposito: 
+Dar trazabilidad a los apoyos, permitir contabilizar el respaldo ciudadano 
+y generar estadisticas de participacion. Ayuda a medir el impacto de cada causa. 
+ 
+--- 
+RELACION ENTRE ENTIDADES: 
+ 
+Una Causa Comunitaria puede tener muchos Apoyos Ciudadanos. 
+Un Apoyo Ciudadano pertenece a una unica Causa Comunitaria. 
+ 
+Relacion: Uno a muchos (1:N) 
+ 
+--- 
+EJEMPLOS DE DATOS: 
+ 
+Causa Ejemplo: 
+{ 
+  "id": 1, 
+  "titulo": "Mejora de iluminacion en el barrio", 
+  "descripcion": "Solicitar la instalacion de luminarias LED en las calles principales", 
+  "fecha_creacion": "2026-07-01", 
+  "estado": "activa", 
+  "categoria": "infraestructura" 
+} 
+ 
+Apoyo Ejemplo: 
+{ 
+  "id": 1, 
+  "causa_id": 1, 
+  "usuario": "maria_ciudadana", 
+  "fecha_apoyo": "2026-07-05" 
+} 
+ 
+--- 
+Fecha de diseno: 5 de julio de 2026 

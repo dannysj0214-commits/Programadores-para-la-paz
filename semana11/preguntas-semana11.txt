@@ -1,0 +1,22 @@
+PREGUNTAS DE SELECCI‡N MÈLTIPLE - SEMANA 11 
+ 
+Pregunta 1: 
+®Que es una base de datos en una aplicacion? 
+Respuesta: Un sistema que permite almacenar y consultar informacion estructurada. 
+ 
+Pregunta 2: 
+®Que significa CRUD en programacion? 
+Respuesta: Crear, leer, actualizar y eliminar datos. 
+ 
+Pregunta 3: 
+®Que permite la autenticacion de usuarios en una aplicacion? 
+Respuesta: Identificar usuarios y controlar quien puede acceder a ciertas funciones. 
+ 
+Pregunta 4: 
+®Por que es importante proteger datos sensibles en una plataforma digital? 
+Respuesta: Para evitar riesgos de privacidad o uso indebido de la informacion. 
+ 
+--- 
+Fecha de realizacion: 5 de julio de 2026 
+Estudiante: [Nombre del estudiante] 
+Modulo: 5 - Base de datos, autenticacion, interfaz basica y trazabilidad 

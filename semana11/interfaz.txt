@@ -1,0 +1,100 @@
+INTERFAZ BASICA - PLATAFORMA COMUNITARIA 
+ 
+DESCRIPCION GENERAL: 
+La interfaz de la plataforma comunitaria debe ser clara, sencilla e intuitiva, 
+disenada para que cualquier ciudadano pueda utilizarla sin necesidad de 
+conocimientos tecnicos. La informacion personal de los usuarios debe permanecer 
+privada, mostrando solo lo necesario para fomentar la participacion. 
+ 
+--- 
+1. FORMULARIO PARA CREAR UNA CAUSA 
+ 
+Ubicacion: Seccion "Nueva Causa" (accesible solo para usuarios autenticados) 
+ 
+Elementos del formulario: 
+- Titulo: Campo de texto (requerido, maximo 100 caracteres) 
+- Descripcion: Area de texto (requerido, maximo 500 caracteres) 
+- Categoria: Menu desplegable (ambiental, social, educativa, salud, infraestructura) 
+- Ubicacion: Campo de texto (sector o comuna) 
+- Boton: "Publicar Causa" 
+ 
+Ejemplo visual: 
++---------------------------------------------+ 
++---------------------------------------------+ 
+ 
+--- 
+2. BOTON PARA APOYAR UNA CAUSA 
+ 
+Ubicacion: Junto a cada causa en la lista de causas disponibles. 
+ 
+Descripcion: 
+Cada tarjeta de causa incluye un boton de apoyo y un contador que muestra 
+cuantas personas han apoyado la causa. 
+ 
+Elementos de la tarjeta de causa: 
+- Titulo de la causa (en negrita) 
+- Descripcion resumida 
+- Categoria (etiqueta visual) 
+- Fecha de publicacion 
+- Contador de apoyos: " 25 apoyos" 
+- Boton: " Apoyar esta causa" (cambia a "Ya apoyaste" despues de apoyar) 
+ 
+Ejemplo visual: 
++-------------------------------------------------+ 
++-------------------------------------------------+ 
+ 
+--- 
+3. CONTADOR DE APOYOS 
+ 
+Ubicacion: Visible en cada tarjeta de causa y en la vista de detalle. 
+ 
+Caracteristicas: 
+- Actualizacion en tiempo real (cada vez que se apoya) 
+- Muestra el total de apoyos acumulados 
+- Incluye un icono representativo (, , ) 
+- Formato legible: "XX apoyos" 
+ 
+Importante: 
+El contador debe actualizarse sin recargar la pagina (usando JavaScript o 
+actualizacion dinamica) para mejorar la experiencia del usuario. 
+ 
+--- 
+4. VISTA DE CAUSAS DISPONIBLES 
+ 
+Ubicacion: Pagina principal de la plataforma (accesible para todos). 
+ 
+Caracteristicas: 
+- Listado de todas las causas activas 
+- Ordenadas por fecha de creacion (mas recientes primero) 
+- Cada causa se muestra en una tarjeta 
+- Paginacion para cargar mas causas 
+- Filtros por categoria (opcional) 
+- Barra de busqueda (opcional) 
+ 
+Estructura de la pagina: 
++-------------------------------------------------+ 
++-------------------------------------------------+ 
+ 
+--- 
+REQUISITOS DE SEGURIDAD EN LA INTERFAZ: 
+ 
+- No mostrar informacion personal de los usuarios 
+- No mostrar contrasenas o tokens en la URL 
+- Usar HTTPS para todas las comunicaciones 
+- Validar todos los formularios del lado del cliente y del servidor 
+- Mostrar mensajes de error genericos (sin revelar informacion sensible) 
+- Implementar proteccion CSRF en formularios 
+- Usar autenticacion para acciones criticas 
+ 
+--- 
+CARACTERISTICAS DE ACCESIBILIDAD: 
+ 
+- Texto legible con contraste adecuado 
+- Tamano de fuente ajustable 
+- Etiquetas claras en todos los campos 
+- Mensajes de error comprensibles 
+- Navegacion con teclado 
+- Soporte para lectores de pantalla 
+ 
+--- 
+Fecha de diseno: 5 de julio de 2026 

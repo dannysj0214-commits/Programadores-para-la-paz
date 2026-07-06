@@ -1,0 +1,45 @@
+AUTENTICACION EN LA PLATAFORMA COMUNITARIA 
+ 
+¨Que es el login en una aplicacion? 
+El login es el proceso mediante el cual un usuario se identifica en la aplicacion 
+proporcionando credenciales (generalmente un nombre de usuario y una contrasena). 
+Este proceso permite que el sistema verifique la identidad del usuario y determine 
+que permisos y accesos debe tener dentro de la plataforma. Es la puerta de entrada 
+que separa el acceso publico de las funcionalidades privadas. 
+ 
+¨Por que algunas rutas deben estar protegidas? 
+Algunas rutas deben estar protegidas porque contienen informacion confidencial, 
+registros internos, datos personales de los ciudadanos o funcionalidades que no 
+deberian estar disponibles para cualquier persona que visite la plataforma. 
+ 
+Ejemplos de rutas que deben protegerse: 
+- Panel de administracion: Donde se gestionan las causas y usuarios. 
+- Registro de apoyos: Para evitar manipulacion de los conteos. 
+- Perfiles de usuario: Para proteger la informacion personal. 
+- Registros de trazabilidad: Para mantener la integridad de las acciones. 
+- Eliminacion de datos: Para evitar que personas no autorizadas borren informacion. 
+ 
+¨Que tipo de informacion no deberia exponerse publicamente? 
+Nunca deben exponerse publicamente los siguientes datos: 
+ 
+1. Contrasenas de usuarios (deben almacenarse encriptadas) 
+2. Numeros de documentos de identidad (cedula, RUT, pasaporte) 
+3. Numeros de telefono personales 
+4. Direcciones de residencia exactas 
+5. Correos electronicos personales (a menos que el usuario acepte) 
+6. Tokens de acceso o claves de API 
+7. Informacion medica o de salud 
+8. Datos bancarios o financieros 
+9. Conversaciones privadas entre usuarios 
+10. Cualquier dato considerado sensible segun la ley de proteccion de datos 
+ 
+Buenas practicas de autenticacion: 
+- Usar encriptacion para las contrasenas (bcrypt, hash) 
+- Implementar sesiones o tokens JWT para mantener la autenticacion 
+- Usar HTTPS para proteger los datos en transito 
+- Implementar verificacion en dos pasos (2FA) para mayor seguridad 
+- Mantener registros de intentos de acceso (log de autenticacion) 
+- Establecer politicas de contrasenas seguras 
+ 
+--- 
+Fecha de explicacion: 5 de julio de 2026 
