@@ -1,0 +1,47 @@
+FLUJO DEL SISTEMA - PETICIÓN EN 3 CLICS
+
+DESCRIPCIÓN GENERAL:
+El sistema "Petición en 3 Clics" permite a una comunidad crear una causa, 
+recibir apoyos y generar automáticamente un documento formal (PDF) que 
+pueda ser presentado a autoridades o instituciones.
+
+FLUJO COMPLETO (6 pasos):
+
+PASO 1: Creación de la causa
+- Un ciudadano completa un formulario con: título, descripción, ubicación.
+- La causa queda registrada en la base de datos con estado "activa".
+
+PASO 2: Visualización de la causa
+- La causa aparece en la lista pública de la plataforma.
+- Se muestra: título, descripción y contador de apoyos.
+- La información sensible de los creadores NO se muestra.
+
+PASO 3: Apoyo a la causa
+- Un ciudadano hace clic en "Apoyar esta causa".
+- El sistema registra el apoyo con: ID de la causa, nombre (opcional) y fecha.
+- El contador de apoyos se actualiza automáticamente.
+
+PASO 4: Verificación de apoyos
+- El sistema verifica que el apoyo sea válido (no duplicado).
+- Se establece un mínimo de apoyos para generar el PDF (ej: 10 apoyos).
+
+PASO 5: Generación del documento PDF
+- Cuando se alcanza el mínimo de apoyos, el sistema genera automáticamente un PDF formal.
+- El PDF incluye: título, descripción, número de apoyos, fecha.
+- El documento tiene formato de petición oficial.
+
+PASO 6: Notificación y cierre
+- El sistema envía una notificación por Telegram al creador:
+  "¡Tu causa ha alcanzado los apoyos necesarios!"
+  "Descarga tu petición formal aquí: [enlace]"
+- La causa se actualiza a estado "completada".
+
+VENTAJAS DEL FLUJO:
+✅ Proceso simple e intuitivo
+✅ Generación automática de documentos formales
+✅ Trazabilidad de los apoyos
+✅ Notificaciones automáticas
+✅ Protección de datos personales
+
+---
+Fecha de diseño: 11 de julio de 2026

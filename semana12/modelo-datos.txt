@@ -1,0 +1,64 @@
+MODELO DE DATOS - PETICIÓN EN 3 CLICS
+
+ENTIDAD 1: Causa
+
+Descripción: Representa la petición o iniciativa que la comunidad desea impulsar.
+
+Campos principales:
+- id: Identificador único de la causa (autogenerado)
+- titulo: Título descriptivo de la petición (máximo 100 caracteres)
+- descripcion: Explicación detallada (máximo 500 caracteres)
+- fecha_creacion: Fecha y hora del registro
+- ubicacion: Sector o comuna
+- estado: activa, en proceso, completada, entregada
+- apoyos_minimos: Número mínimo de apoyos requeridos (ej: 10)
+- usuario_creador: Identificador del usuario (puede ser anónimo)
+
+Propósito: Almacenar las peticiones ciudadanas para que los ciudadanos puedan 
+conocerlas, apoyarlas y generar documentos formales.
+
+---
+ENTIDAD 2: Apoyo
+
+Descripción: Registra el respaldo de cada ciudadano a una causa específica.
+
+Campos principales:
+- id: Identificador único del apoyo (autogenerado)
+- causa_id: Identificador de la causa a la que se apoya
+- nombre_ciudadano: Nombre del ciudadano (opcional, puede ser anónimo)
+- fecha_apoyo: Fecha y hora del registro
+- comentario: Mensaje opcional (máximo 200 caracteres)
+
+Propósito: Dar trazabilidad a los apoyos, contabilizar el respaldo ciudadano 
+y verificar el mínimo necesario para generar el documento formal.
+
+---
+RELACIÓN ENTRE ENTIDADES:
+Una Causa puede tener muchos Apoyos.
+Un Apoyo pertenece a una única Causa.
+Relación: Uno a muchos (1:N)
+
+---
+EJEMPLO DE DATOS:
+
+Causa Ejemplo:
+{
+  "id": 1,
+  "titulo": "Mejora de iluminación en el barrio Centro",
+  "descripcion": "Solicitar la instalación de luminarias LED para mejorar la seguridad",
+  "fecha_creacion": "2026-07-10",
+  "ubicacion": "Barrio Centro",
+  "estado": "activa",
+  "apoyos_minimos": 10
+}
+
+Apoyo Ejemplo:
+{
+  "id": 1,
+  "causa_id": 1,
+  "nombre_ciudadano": "Maria Perez",
+  "fecha_apoyo": "2026-07-11"
+}
+
+---
+Fecha de diseño: 11 de julio de 2026

@@ -1,0 +1,50 @@
+AUTOMATIZACIÓN - PETICIÓN EN 3 CLICS
+
+¿Qué evento activa la automatización?
+Cuando una causa alcanza el número mínimo de apoyos establecido (ejemplo: 10 apoyos).
+Se verifica cada vez que se registra un nuevo apoyo en el sistema.
+
+¿Qué mensaje se envía por Telegram?
+"📢 ¡PETICIÓN COMPLETADA!
+
+La causa '[título]' ha alcanzado los [número] apoyos necesarios.
+
+📋 Detalles:
+- Título: [título]
+- Ubicación: [ubicación]
+- Total de apoyos: [número]
+- Fecha de creación: [fecha]
+
+📄 Tu petición formal ha sido generada automáticamente.
+🔗 Descarga el PDF aquí: [enlace_de_descarga]
+
+¡Gracias por participar en la construcción de comunidad!"
+
+¿Qué información NO debe enviarse por seguridad?
+❌ Nombres completos de los ciudadanos que apoyaron
+❌ Documentos de identidad (cédula, RUT, pasaporte)
+❌ Números de teléfono personales
+❌ Direcciones de residencia exactas
+❌ Correos electrónicos personales
+❌ Tokens de acceso o claves de API
+❌ Contraseñas o credenciales
+❌ Comentarios sensibles
+❌ Datos bancarios o financieros
+❌ Cualquier dato considerado sensible según la ley
+
+FLUJO DETALLADO:
+PASO 1: Trigger - Webhook que se activa al registrar un nuevo apoyo
+PASO 2: Condición - Si los apoyos >= mínimo requerido (10)
+PASO 3: Generación del PDF - Se crea el documento formal
+PASO 4: Notificación - Se envía el mensaje por Telegram
+PASO 5: Actualización - La causa cambia a estado "completada"
+
+VENTAJAS:
+✅ Respuesta inmediata
+✅ Generación automática de documentos
+✅ Trazabilidad
+✅ Coordinación eficiente
+✅ Empoderamiento ciudadano
+
+---
+Fecha de diseño: 11 de julio de 2026
